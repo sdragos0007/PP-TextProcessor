@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class TextProcessor {
     public static void main(String[] args) {
-        String filePath = "input.txt";
+        String filePath = "src/input.txt";
         String content = "";
 
         try {
@@ -15,5 +15,7 @@ public class TextProcessor {
         }
 
         // TODO: Urmatoarele procesari (eliminare punctuatie, etc.) vor fi adaugate aici
+
+        System.out.println("Text procesat: " + content);
     }
 }
