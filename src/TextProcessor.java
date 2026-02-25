@@ -16,6 +16,8 @@ public class TextProcessor {
 
         content = content.replaceAll("\\p{Punct}", "");
 
+        content = content.replaceAll("\\s+", " ");
+
         System.out.println("Text procesat: " + content);
     }
 }
