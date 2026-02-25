@@ -14,7 +14,7 @@ public class TextProcessor {
             return;
         }
 
-        // TODO: Urmatoarele procesari (eliminare punctuatie, etc.) vor fi adaugate aici
+        content = content.replaceAll("\\p{Punct}", "");
 
         System.out.println("Text procesat: " + content);
     }
