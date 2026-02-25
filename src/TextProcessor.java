@@ -18,6 +18,8 @@ public class TextProcessor {
 
         content = content.replaceAll("\\s+", " ");
 
+        content = content.toUpperCase();
+
         System.out.println("Text procesat: " + content);
     }
 }
